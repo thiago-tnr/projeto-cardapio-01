@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(46, 44, 44);
+}
+.corpo-cab{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+/*.conter{
+    width: 900px;
+    height: 10px;
+}*/
+.cabecalho-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    height: 150px;
+    background-color: black;
+}
+.cabecalho-info img {
+    width: 125px;
+    height: 125px;
+}
+.lista ul, .lista li{
+    list-style: none;
+    display: flex;
+}
+.lista li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 70px;
+    text-align: center;
+    padding: 20px;
+    background-color:orangered;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 18pt;
+}
+.horario{
+    width: 100%;
+    height: 60px;
+    background-color:#000;
+    position: fixed;
+    text-align: center;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 16pt;
+    text-transform: uppercase;
+    border-bottom: 20px;
+}
+/*.container{
+    width: 100%;
+    background-color: black;
+}*/
+.banner{
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+.img-bg{
+    height: 1000px;
+}
+#img-bg{
+    width: 100%;
+    height: 800px;
+}
+/*.banner-bg {
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.5);
+}*/
+.produtos-food{
+    width: 900px;
+    margin: auto;
+    background-color: rgb(46, 44, 44);
+    align-items: center;
+}
+.food-conteudo {
+    height: 200px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.food{
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    margin-top: 100px;
+}
+
+.titulo-aba{
+    margin:auto;
+}
+.titulo-aba p {
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+    /*background-color: tomato;*/
+    color: azure;
+    font-size: 60pt;
+    border-bottom: 2px solid orangered; 
+    margin: 0;
+}
+.tipo-item{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Kalam', cursive;
+    text-transform: capitalize;
+    color: orangered;
+    font-size: 20pt;
+    margin-top: 40px;
+}
+.tipo-hamb {
+    /*background-color: orchid;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    width: 900px;
+    color: white;
+    border-bottom: 2px solid orangered;
+}
+.imagens img {
+    width: 250px;
+}
+#valor{
+    font-size: 12pt;
+    color:orangered;
+
+}
+.menu-pedidos{
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin: 5px;
+    width: 500px;
+    font-family: 'Kalam', cursive;
+
+}
+.fazer-pedido a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(96, 185, 84,0.5);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 18pt;
+    display: flex;
+}
+span{
+    margin: 10px;
+}
+#whats{
+    width: 25px;
+}
+.whats {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+.menu-pedidos--pizza{
+    width: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+}
+.pedido-pizza {
+    text-decoration: none;
+    padding: 15px;
+    background-color:rgb(237, 107, 59);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight:400;
+    margin: 5px;
+    font-size: 16pt;
+}
+.pedido-pizza:hover{
+    background-color:rgb(230, 153, 125); ;
+}
+.locale{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(46, 44, 44);
+    margin: auto;
+}
+.rest-local{
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    margin-top: 20px;
+}
+#p-local{
+    text-transform: capitalize;
+}
+.locale-map{
+    display: flex;
+    justify-content: center;
+}
+.mapa-store{
+    width: 900px;
+    height: 400px;
+    margin-top: 10px;
+    align-items: center;
+}
+#mapa{
+    margin-top: 20px;
+    width: 700px;
+    height: 300px;
+    filter: grayscale(0.5);
+}
+.fim-pg{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid orangered;
+    flex-direction: column;
+    align-items: center;
+}
+.fim-titulo{
+    color:white;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-weight: 400;
+    border-bottom: 20px;
+}
+.cartoes{
+    height: 100px;
+    width: 900px;
+    justify-content: center;
+}
+.card-pg{
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+.cartoes ul, .cartoes li {
+    display: flex;
+    text-decoration: none;
+    width: 900px;
+    border-bottom: 20px;
+}
+.up{
+    width: 70px;
+    height: 50px;
+}
+.fim-pg2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(151, 151, 151, 0.5);
+    border-top: 20px;
+    font-size: 10pt;
+}
+.copy{
+    width: 900px;
+    text-align: center;
+    border-top: 20px;
+    border-top: 1px solid rgba(100, 98, 98, 0.5);
+}
+@media only screen and (max-width:768px){
+    #space{
+        width: 1000px;
+    }
+    .cabecalho-info{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .lista ul {
+        margin-right: 50px;
+    }
+    .lista ul li{
+        text-align: center;
+    }
+    .lista li a {
+        padding: 15px;
+        font-size: 28pt;
+        text-align: center;
+        width: 130px;
+    }
+    .cabecalho-info img {
+        margin-top:20px;
+    }
+
+    .horario p {
+        font-size: 20pt;
+        margin-top:8px;
+    }
+    .tipo-item{
+        font-size: 28pt;
+    }
+    .menu-pedidos p, #valor{
+        font-size: 17pt;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .produtos-food{
+        margin: auto;
+    }
+    .tipo-hamb{
+        margin-bottom: 20px;
+    }
+    .tipo-hamb img {
+        width: 200px;
+        height: auto;
+    }
+    .tipo-hamb a {
+        margin-right: 10px;
+    }
+
+    .menu-pedidos--pizza{
+        width: 500px;
+        margin-right: 100px;
+    }
+    .pedido-pizza {
+        font-size: 17pt;
+        margin-bottom: 10px;
+    }
+
+}
